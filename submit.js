@@ -42,6 +42,9 @@
 
           els[i].setAttribute( 'data-submit' );
 
+          // Disable the submission button to prevent multiple submits
+          els[i].setAttribute( 'disabled', true );
+
           // Assuming only one submit button in the form
           break;
         }
